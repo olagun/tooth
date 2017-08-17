@@ -1,0 +1,19 @@
+{
+  "name": "tooth",
+  "version": "1.0.0",
+  "description": "A JSON parser.",
+  "main": "dist/json-parser.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Samuel Olagun",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.47.6"
+  },
+  "dependencies": {},
+  "keywords": [
+    "json",
+    "parser"
+  ]
+}

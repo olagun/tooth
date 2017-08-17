@@ -1,0 +1,13 @@
+"use strict";
+
+export default {
+  LEFT_CURLY_BRACKET: "\u007B",
+  RIGHT_CURLY_BRACKET: "\u007D",
+  LEFT_SQUARE_BRACKET: "\u005B",
+  RIGHT_SQUARE_BRACKET: "\u005D",
+  QUOTATION_MARK: "\u0022",
+  APOSTROPHE: "\u0027",
+  COMMA: "\u002C",
+  COLON: "\u003A",
+  REVERSE_SOLIDUS: "\u005C"
+};
