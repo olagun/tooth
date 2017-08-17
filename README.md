@@ -5,7 +5,7 @@
 ```javascript
 import tooth from 'tooth';
 
-tooth(`{ "foo": "bar" }`) // -> [Object object] { "foo": "bar" }
+tooth(`{ "foo": "bar" }`); // -> [object Object] { "foo": "bar" }
 ```
 
 Get it? Nice.
