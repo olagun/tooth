@@ -1,7 +1,6 @@
 "use strict";
 
 /**
- * @function parseString
  * @param {Tokenizer} tokenizer
  * @param {string} mark
  * @returns {string}

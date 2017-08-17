@@ -3,7 +3,6 @@
 import Constants from "../constants";
 
 /**
- * @function parseNumber
  * @param {Tokenizer} tokenizer
  * @param {string} firstDigit
  * @returns {number}

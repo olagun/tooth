@@ -11,5 +11,3 @@ export default function(string) {
   var tokenizer = new Tokenizer(string);
   return parsePrimitive(tokenizer);
 }
-
-// console.log(parseJSON(`'\nay'`));

@@ -3,6 +3,10 @@
 import Constants from "../constants";
 import parsePrimitive from "./primitive";
 
+/**
+ * @param {Tokenizer} tokenizer
+ * @returns {*[]}
+ */
 export default function(tokenizer) {
   var array = [],
     commaCount = 0,

@@ -8,7 +8,6 @@ import parseBoolean from "./boolean";
 import parseNumber from "./number";
 
 /**
- * @function parsePrimitive
  * @param {Tokenizer} tokenizer
  * @param {string} token
  * @returns {*}
