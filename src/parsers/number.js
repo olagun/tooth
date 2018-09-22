@@ -12,9 +12,11 @@ export default function(tokenizer, firstDigit) {
     number = firstDigit;
 
   while ((token = tokenizer.nextToken())) {
-    if (token === Constants.COMMA) break;
-    number += token;
+    if (/\-|\+|\d|e|E|\./.test(token)) number += token;
+    else break;
   }
+
+  console.log(number);
 
   return +number;
 }

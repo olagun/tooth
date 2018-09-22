@@ -2,7 +2,7 @@
 
 export default {
   entry: "src/tooth.js",
-  format: "umd",
+  format: "cjs",
   plugins: [],
   dest: "dist/tooth.js"
 };

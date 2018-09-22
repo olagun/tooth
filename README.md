@@ -1,11 +1,11 @@
-# tooth
+# Tooth
 
-**tooth** is a JSON parser I built for fun. Here's the deal:
+**Tooth** is a JSON parser I built for fun.
 
 ```javascript
-import tooth from 'tooth';
+import tooth from "tooth";
 
 tooth(`{ "foo": "bar" }`); // -> [object Object] { "foo": "bar" }
 ```
 
-Get it? Nice.
+P.S. I know this has some issues; however, I longer maintain this project.

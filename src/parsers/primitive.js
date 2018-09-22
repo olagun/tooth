@@ -47,8 +47,7 @@ export default function(tokenizer, entry) {
         var number = parseNumber(tokenizer, token);
 
         // Error if cannot be parsed as one.
-        if (Object.is(number, NaN))
-          throw SyntaxError("tooth: value cannot be parsed");
+        if (isNaN(number)) throw SyntaxError("tooth: value cannot be parsed");
 
         return number;
       }

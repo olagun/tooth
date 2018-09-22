@@ -4,7 +4,8 @@
   "description": "A JSON parser.",
   "main": "dist/json-parser.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "clean": "rm -R dist"
   },
   "author": "Samuel Olagun",
   "license": "MIT",
