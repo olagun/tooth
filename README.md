@@ -8,4 +8,4 @@ import tooth from "tooth";
 tooth(`{ "foo": "bar" }`); // -> [object Object] { "foo": "bar" }
 ```
 
-P.S. I know this has some issues; however, I longer maintain this project.
+_p.s._ I know this has some issues; however, I longer maintain this project.
